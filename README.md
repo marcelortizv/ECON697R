@@ -1,39 +1,95 @@
 ---
 layout: home
-title: Just the Class
-nav_exclude: true
+title: Topics in High-Dimensional Econometrics and ML Theory
+
 permalink: /:path/
 seo:
   type: Course
-  name: Just the Class
+  name: Topics in High-Dimensional Econometrics and ML Theory
+nav_exclude: true
+---
+# Topics in High-Dimensional Econometrics and ML Theory
+{:.no_toc}
+
+{: .mb-2 }
+Emory University, Spring 2024
+{: .mb-0 .fs-6 .text-grey-dk-000 }
+
+{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+{% for staffer in instructors %}
+{{ staffer }}
+{% endfor %}
+
 ---
 
-# Just the Class
+## Table of contents
+{: .no_toc .text-delta }
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+1. TOC
+{:toc}
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+---
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
+## About
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+Designed to be a Directed Study (a intensive reading in econometrics on a topic not covered in a regular course at Emory University), this course will cover a variety of topics in high-dimensional econometrics and machine learning theory. The course is based on student presentations, and discussions among participants (students and faculty invited). 
 
-## Getting Started
 
-Getting started with Just the Class is simple.
+## Course Description
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+This course aims to be a in-depth exploration of the theoretical foundations and practical applications of high dimensional statistics and machine learning theory at the graduate level. Since this a topics course, the content will be based on the interests of the participants and student presenter. The primary objective of this directed reading is to provide a comprehensive and self-contained overview of high-dimensional statistics, covering topics such as concentration inequalities, empirical processes, uniform laws, reproducing kernel Hilbert spaces, semiparametric theory, and their applications in causal inference.
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+## Content 
 
-### Local development environment
+### Topic 1: Concentrations Inequalities
 
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+  * Motivating examples 
+  * Classical bounds
+
+### Topic 2: Uniform law of large numbers
+
+  * Uniform convergence
+  * Rademacher complexity
+
+### Topic 3: Sparse linear models in high-dimensions
+
+  * Different types of sparsity
+  * Shrinkage estimators and regularizers
+  * Regularization bias
+
+
+### Topic 4: Reproducing Kernel Hilbert Spaces
+
+  * Hilbert spaces
+  * Kernels and operations
+  * Reproducing kernel Hilbert spaces
+  * Kernel Ridge regression
+
+### Topic 5: Semiparametric Efficiency Theory
+  
+  * Semiparametric efficiency
+  * Efficiency Influence Functions
+  * Pathwise Defferentiability and Distributional Taylor Expansion
+
+### Topic 6: Double/Debiased Machine Learning
+
+  * Neyman Orthogonality
+  * Sample Splitting
+  * Cross-fitting
+  * Applications
+
+## References
+
+The content of the course will be based on the following references:
+
+1. [High-Dimensional Statistics: A Non-Asymptotic Viewpoint](https://www.cambridge.org/us/universitypress/subjects/statistics-probability/statistical-theory-and-methods/high-dimensional-statistics-non-asymptotic-viewpoint?format=HB&isbn=9781108498029) by Martin Wainwright.
+
+2. [Lectures Notes for Machine Learning Theory (CS229M/STATS214)](https://tselilschramm.org/mltheory/ma.pdf) by Tengyu Ma.
+
+3. [Introduction to RKHS, and some simple kernel algorithms](https://www.gatsby.ucl.ac.uk/~gretton/coursefiles/lecture4_introToRKHS.pdf) by Arthur Gretton.
+
+4. [Machine Learning for Econometrics](https://drive.google.com/file/d/1L_iervUBKj3RsXHLEGOtAFlyHEHpmyT4/view) by Christophe Gaillac and Jeremy L’Hour.
+
+## Acknowledgments
+
+I thank Prof. [David Jacho-Chavez](https://www.davidjachochavez.org/) for his guidance and serve as Faculty Sponsor to develop this course.
