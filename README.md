@@ -32,12 +32,12 @@ Emory University, Spring 2024
 
 ## About
 
-Designed to be a Directed Study (a intensive reading in econometrics on a topic not covered in a regular course at Emory University), this course will cover a variety of topics in high-dimensional econometrics and machine learning theory. The course is based on student presentations, and discussions among participants (students and faculty invited). 
+Designed to be a Directed Study (a intensive reading in econometrics on a topic not covered in a regular course at Emory University), this course covers a variety of topics in high-dimensional econometrics and machine learning theory. The course is based on student presentations, and discussions among participants (students and faculty invited). 
 
 
 ## Course Description
 
-This course aims to be a in-depth exploration of the theoretical foundations and practical applications of high dimensional statistics and machine learning theory at the graduate level. Since this a topics course, the content will be based on the interests of the participants and student presenter. The primary objective of this directed reading is to provide a comprehensive and self-contained overview of high-dimensional statistics, covering topics such as concentration inequalities, empirical processes, uniform laws, reproducing kernel Hilbert spaces, semiparametric theory, and their applications in causal inference.
+This course aims to be a in-depth exploration of the theoretical foundations and practical applications of high dimensional statistics and machine learning theory at the graduate level. Since this a topics course, the content is based on the interests of the participants and student presenter. The primary objective of this directed reading is to provide a comprehensive and self-contained overview of high-dimensional statistics, covering topics such as concentration inequalities, empirical processes, uniform laws, reproducing kernel Hilbert spaces, semiparametric theory, double/debiased machine learning and their applications in causal inference.
 
 ## Content 
 
